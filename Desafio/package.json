@@ -1,0 +1,28 @@
+{
+    "name": "br-cidades-estados-nodejs",
+    "description": "API para consultar todos os estados e cidades do Brasil",
+    "author": "Pedro Tobias",
+    "version": "1.0.3",
+    "license": "MIT",
+    "homepage": "https://github.com/wgenial/br-cidades-estados-nodejs",
+    "keywords": [
+      "brasil",
+      "cidades",
+      "estados"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/wgenial/br-cidades-estados-nodejs.git"
+    },
+    "bugs": {
+      "url": "https://github.com/wgenial/br-cidades-estados-nodejs/issues"
+    },
+    "main": "app.js",
+    "scripts": {
+      "start": "json-server https://cdn.rawgit.com/wgenial/br-cidades-estados-nodejs/468a7b51/db.json"
+    },
+    "dependencies": {
+      "json-server": "^0.12.1"
+    }
+  }
+  
